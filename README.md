@@ -10,7 +10,8 @@ AI 每天自动：抓新闻 → 写英文稿 → 微软 Neural TTS 转语音 →
 | 音频 | GitHub Pages `audio/YYYY-MM-DD.mp3` | ✅ HTTP 200，596KB / 1:39 |
 | 仓库 | `github.com/anyhow1234/daily-brief`（公开） | ✅ Pages 已启用 |
 | TTS | `edge-tts`（微软 Neural，`en-US-AriaNeural`） | ✅ 99 秒音频 5 秒生成 |
-| App | 底部「播客」标签页 | 待真机确认播放 |
+| App | 底部「播客」标签页，支持**字幕** | ✅ 已装到 iPhone |
+| 字幕 | edge-tts `--write-subtitles` 直接生成 VTT，GitHub Pages 静态托管 | ✅ 线上 19 条，时间轴校验通过 |
 
 ## 目录
 
@@ -35,12 +36,12 @@ cat > script.txt <<'EOF'
 Welcome to Daily Brief. It's ...
 EOF
 
-# 2. 转语音
+# 2. 转语音 + 生成字幕（--write-subtitles 不能漏）
 edge-tts --voice en-US-AriaNeural --rate=+5% \
-  --text "$(cat script.txt)" --write-media episode.mp3
+  --text "$(cat script.txt)" --write-media episode.mp3 --write-subtitles episode.vtt
 
-# 3. 发布
-./publish.py --audio episode.mp3 \
+# 3. 发布（--subtitle 不能漏）
+./publish.py --audio episode.mp3 --subtitle episode.vtt \
   --title "Nov 21: ..." \
   --desc "Three stories: ..." \
   --transcript script.txt
@@ -71,9 +72,9 @@ RRULE:FREQ=DAILY;BYHOUR=7;BYMINUTE=0
    export PATH="$HOME/Library/Python/3.9/bin:$PATH"
    cd ~/CodexSpace/临时/chores/podcast-demo
    edge-tts --voice en-US-AriaNeural --rate=+5% \
-     --text "$(cat script.txt)" --write-media episode.mp3
+     --text "$(cat script.txt)" --write-media episode.mp3 --write-subtitles episode.vtt
 5. 发布：
-   ./publish.py --audio episode.mp3 \
+   ./publish.py --audio episode.mp3 --subtitle episode.vtt \
      --title "<日期>: <三条主题一句话概括>" \
      --desc "<80 字以内英文摘要>" --transcript script.txt
 6. 确认 feed 已更新：curl -s https://anyhow1234.github.io/daily-brief/feed.xml | grep -c "<item>"
@@ -85,6 +86,22 @@ RRULE:FREQ=DAILY;BYHOUR=7;BYMINUTE=0
 - 音频控制在 1.5-3 分钟（200-400 词）
 - 不要改 feed.xml 的结构，只用 publish.py
 ```
+
+## 字幕方案（不需要服务器）
+
+字幕是**纯静态文件**，和音频一样放在 GitHub Pages：
+
+- 生成：`edge-tts --write-subtitles` 直接在合成音频时拿到每句的准确起止时间（微软 TTS 返回 WordBoundary 事件）
+- 发布：`transcripts/YYYY-MM-DD.vtt`
+- 声明：feed 里加 Podcasting 2.0 标准标签
+  `<podcast:transcript url="...vtt" type="text/vtt" language="en"/>`
+- App 读取：优先用 feed 里的标签，没有就按约定拼
+  `audio/2026-11-20.mp3` → `transcripts/2026-11-20.vtt`
+- App 显示：播放条上的字幕按钮 → 字幕列表自动跟随播放高亮，点任意一句跳到那句
+
+关于 RSS 标准：RSS 2.0 本身没有字幕字段，字幕靠 **Podcasting 2.0 扩展**暴露。
+Apple Podcasts 不读这个标签（它用自己的服务自动转录），但自己的 App 和
+AntennaPod 等都支持。**全程不需要后端程序**，静态托管就够。
 
 ## 注意事项
 
