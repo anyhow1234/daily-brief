@@ -41,6 +41,7 @@ def main() -> int:
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     ap.add_argument("--duration", default="")
     ap.add_argument("--transcript", default="")
+    ap.add_argument("--subtitle", default="", help="VTT/SRT 字幕文件（edge-tts --write-subtitles 的输出）")
     args = ap.parse_args()
 
     if not os.path.isfile(args.audio):
@@ -67,6 +68,17 @@ def main() -> int:
             pass
     duration = duration or "0:00"
 
+    # 字幕：复制到 transcripts/<date>.vtt，并在 item 里挂 Podcasting 2.0 标签
+    subtitle_tag = ""
+    if args.subtitle and os.path.isfile(args.subtitle):
+        os.makedirs(os.path.join(ROOT, "transcripts"), exist_ok=True)
+        vtt_name = f"{args.date}.vtt"
+        shutil.copyfile(args.subtitle, os.path.join(ROOT, "transcripts", vtt_name))
+        subtitle_tag = (
+            f'      <podcast:transcript url="{BASE_URL}/transcripts/{vtt_name}" '
+            f'type="text/vtt" language="en"/>\n'
+        )
+
     # 北京时间 07:00 发布
     pub = datetime.datetime.now() + datetime.timedelta(days=0)
     pubdate = datetime.datetime.now().strftime("%a, %d %b %Y 07:00:00 +0800")
@@ -78,11 +90,19 @@ def main() -> int:
       <guid isPermaLink="false">{args.date}</guid>
       <enclosure url="{BASE_URL}/audio/{name}" length="{size}" type="{AUDIO_MIME}"/>
       <itunes:duration>{duration}</itunes:duration>
-    </item>
+{subtitle_tag}    </item>
 """
 
     with open(FEED, encoding="utf-8") as f:
         xml = f.read()
+
+    # 首次带字幕发布时补上 Podcasting 2.0 命名空间
+    if subtitle_tag and "xmlns:podcast" not in xml:
+        xml = xml.replace(
+            'xmlns:content="http://purl.org/rss/1.0/modules/content/"',
+            'xmlns:content="http://purl.org/rss/1.0/modules/content/"\n'
+            '     xmlns:podcast="https://podcastindex.org/namespace/1.0"',
+        )
 
     # 同一日期重复发布时先移除旧条目
     xml = re.sub(
