@@ -20,5 +20,14 @@
       <itunes:duration>1:39</itunes:duration>
       <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-20.vtt" type="text/vtt" language="en"/>
     </item>
+    <item>
+      <title>Nov 23: COP31 ends without a deal, Anthropic's record IPO, AI designs its own chips</title>
+      <description><![CDATA[Climate talks in Türkiye close without an overarching agreement; Anthropic completes the largest IPO in history; and OpenAI says its models helped optimise AMD's flagship GPU design.]]></description>
+      <pubDate>Mon, 23 Nov 2026 07:00:00 +0800</pubDate>
+      <guid isPermaLink="false">2026-11-23</guid>
+      <enclosure url="https://anyhow1234.github.io/daily-brief/audio/2026-11-23.mp3" length="661104" type="audio/mpeg"/>
+      <itunes:duration>1:50</itunes:duration>
+      <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-23.vtt" type="text/vtt" language="en"/>
+    </item>
   </channel>
 </rss>
