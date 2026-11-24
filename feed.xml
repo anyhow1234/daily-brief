@@ -29,5 +29,14 @@
       <itunes:duration>1:50</itunes:duration>
       <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-23.vtt" type="text/vtt" language="en"/>
     </item>
+    <item>
+      <title>Nov 24: Jensen Huang returns to Nvidia, an Indonesian factory fire, AI deals pile up</title>
+      <description><![CDATA[Nvidia's board restores Jensen Huang as CEO and the stock jumps 31 percent; a candy factory fire in Indonesia kills at least 24; and Amazon pays 7.5 billion dollars for AI startup technology while Cisco and OpenAI team up on agent safety.]]></description>
+      <pubDate>Tue, 24 Nov 2026 07:00:00 +0800</pubDate>
+      <guid isPermaLink="false">2026-11-24</guid>
+      <enclosure url="https://anyhow1234.github.io/daily-brief/audio/2026-11-24.mp3" length="643248" type="audio/mpeg"/>
+      <itunes:duration>1:47</itunes:duration>
+      <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-24.vtt" type="text/vtt" language="en"/>
+    </item>
   </channel>
 </rss>
