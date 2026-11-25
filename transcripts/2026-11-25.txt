@@ -1,0 +1,11 @@
+Welcome to Daily Brief. It's Wednesday, November 25th, 2026. Three stories in about three minutes.
+
+First, a shift in the mood around artificial intelligence. Anthropic, which only days ago completed the largest listing in history, has fallen below its issue price. According to industry reports, both OpenAI and Anthropic have also slowed some frontier model releases, telling partners they want stronger safety evidence before shipping. Put those two facts together and you get the phrase analysts are now using: a period of capital discipline. The money is still there, but investors have stopped paying for promises and started asking for proof.
+
+Second, a push for global rules. United Nations Secretary-General Antonio Guterres has called for a multilateral framework to manage the risks of artificial intelligence worldwide. He argued that no single country can govern a technology that crosses every border. The proposal has no binding force yet, and major powers have not signed on. But it lands at a moment when governments are struggling to keep up with systems that are already deployed.
+
+Third, the hardware boom is not slowing. Dell reported twenty two billion dollars in AI-optimised server revenue for the quarter, well above the nineteen billion analysts expected. That is a reminder of something easy to forget during a valuation debate: somebody is still buying enormous quantities of machines, and the money is real.
+
+So we have a split picture this week. Capital is cautious about the companies. It is not cautious about the infrastructure.
+
+That's your briefing for today. The full transcript is in the show notes. I'll be back tomorrow morning.
