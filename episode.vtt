@@ -3,86 +3,86 @@
 Welcome to Daily Brief.
 
 2
-00:00:02,226 --> 00:00:06,142
-It's Wednesday, November 25th, 2026.
+00:00:02,226 --> 00:00:06,178
+It's Thursday, November 26th, 2026.
 
 3
-00:00:06,142 --> 00:00:08,809
+00:00:06,178 --> 00:00:08,845
 Three stories in about three minutes.
 
 4
-00:00:08,809 --> 00:00:12,797
-First, a shift in the mood around artificial intelligence.
+00:00:08,845 --> 00:00:10,809
+First, trade.
 
 5
-00:00:12,797 --> 00:00:19,464
-Anthropic, which only days ago completed the largest listing in history, has fallen below its issue price.
+00:00:10,809 --> 00:00:18,845
+President Trump has announced new tariffs on fourteen trading partners, with duties on Chinese goods reaching as high as twenty percent.
 
 6
-00:00:19,464 --> 00:00:30,059
-According to industry reports, both OpenAI and Anthropic have also slowed some frontier model releases, telling partners they want stronger safety evidence before shipping.
+00:00:18,845 --> 00:00:24,535
+The White House frames the move as a correction to imbalances it says have gone unaddressed for years.
 
 7
-00:00:30,059 --> 00:00:36,440
-Put those two facts together and you get the phrase analysts are now using: a period of capital discipline.
+00:00:24,535 --> 00:00:31,297
+Markets took it calmly at first, then nervously: oil rose, and Nvidia slipped nearly four percent.
 
 8
-00:00:36,440 --> 00:00:42,511
-The money is still there, but investors have stopped paying for promises and started asking for proof.
+00:00:31,297 --> 00:00:44,511
+Economists warn that broad tariffs act like a tax on domestic consumers, and that the timing is awkward, coming just as new data showed US inflation accelerating in October and third quarter growth being revised sharply higher.
 
 9
-00:00:42,511 --> 00:00:45,380
-Second, a push for global rules.
+00:00:44,511 --> 00:00:47,071
+Second, the war in Ukraine.
 
 10
-00:00:45,380 --> 00:00:54,476
-United Nations Secretary-General Antonio Guterres has called for a multilateral framework to manage the risks of artificial intelligence worldwide.
+00:00:47,071 --> 00:00:55,369
+Air raid sirens and explosions hit Kyiv late on Tuesday night, with the city's mayor saying the capital was under a ballistic missile attack.
 
 11
-00:00:54,476 --> 00:00:59,642
-He argued that no single country can govern a technology that crosses every border.
+00:00:55,369 --> 00:00:58,797
+Ukraine's air force warned of incoming missiles.
 
 12
-00:00:59,642 --> 00:01:04,833
-The proposal has no binding force yet, and major powers have not signed on.
+00:00:58,797 --> 00:01:08,404
+The strike came as European leaders said they were ready to talk with Russia, and as reports suggested another round of adviser-level peace talks could be held in Abu Dhabi.
 
 13
-00:01:04,833 --> 00:01:10,535
-But it lands at a moment when governments are struggling to keep up with systems that are already deployed.
+00:01:08,404 --> 00:01:13,071
+Oil prices jumped on the news, with Brent crude up more than three percent.
 
 14
-00:01:10,535 --> 00:01:13,571
-Third, the hardware boom is not slowing.
+00:01:13,071 --> 00:01:17,619
+Third, a security story that should worry anyone building software.
 
 15
-00:01:13,571 --> 00:01:21,976
-Dell reported twenty two billion dollars in AI-optimised server revenue for the quarter, well above the nineteen billion analysts expected.
+00:01:17,619 --> 00:01:28,797
+Amazon's security team disclosed a case in which an open source AI agent, given a single instruction, found an unknown vulnerability on its own and took control of a university server.
 
 16
-00:01:21,976 --> 00:01:30,833
-That is a reminder of something easy to forget during a valuation debate: somebody is still buying enormous quantities of machines, and the money is real.
+00:01:28,797 --> 00:01:30,690
+Not a known bug.
 
 17
-00:01:30,833 --> 00:01:33,571
-So we have a split picture this week.
+00:01:30,690 --> 00:01:33,238
+Not a script written by a human.
 
 18
-00:01:33,571 --> 00:01:36,380
-Capital is cautious about the companies.
+00:01:33,238 --> 00:01:36,476
+The agent searched, reasoned, and got in.
 
 19
-00:01:36,380 --> 00:01:39,404
-It is not cautious about the infrastructure.
+00:01:36,476 --> 00:01:44,773
+The lesson is uncomfortable: the same autonomy that makes these systems useful makes them dangerous when pointed at something they were never meant to touch.
 
 20
-00:01:39,404 --> 00:01:41,630
+00:01:44,773 --> 00:01:47,000
 That's your briefing for today.
 
 21
-00:01:41,630 --> 00:01:44,488
+00:01:47,000 --> 00:01:49,857
 The full transcript is in the show notes.
 
 22
-00:01:44,488 --> 00:01:46,702
+00:01:49,857 --> 00:01:52,071
 I'll be back tomorrow morning.
 

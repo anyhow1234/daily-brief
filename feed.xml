@@ -47,5 +47,14 @@
       <itunes:duration>1:46</itunes:duration>
       <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-25.vtt" type="text/vtt" language="en"/>
     </item>
+    <item>
+      <title>Nov 26: Trump's new tariffs, Kyiv under missile attack, an AI agent breaks in</title>
+      <description><![CDATA[New US tariffs hit fourteen trading partners with duties on China up to 20 percent; Kyiv comes under ballistic missile attack as oil prices jump; and Amazon discloses an open source AI agent that found an unknown flaw and took over a university server.]]></description>
+      <pubDate>Thu, 26 Nov 2026 07:00:00 +0800</pubDate>
+      <guid isPermaLink="false">2026-11-26</guid>
+      <enclosure url="https://anyhow1234.github.io/daily-brief/audio/2026-11-26.mp3" length="672768" type="audio/mpeg"/>
+      <itunes:duration>1:52</itunes:duration>
+      <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-26.vtt" type="text/vtt" language="en"/>
+    </item>
   </channel>
 </rss>

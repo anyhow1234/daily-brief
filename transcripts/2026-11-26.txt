@@ -1,0 +1,9 @@
+Welcome to Daily Brief. It's Thursday, November 26th, 2026. Three stories in about three minutes.
+
+First, trade. President Trump has announced new tariffs on fourteen trading partners, with duties on Chinese goods reaching as high as twenty percent. The White House frames the move as a correction to imbalances it says have gone unaddressed for years. Markets took it calmly at first, then nervously: oil rose, and Nvidia slipped nearly four percent. Economists warn that broad tariffs act like a tax on domestic consumers, and that the timing is awkward, coming just as new data showed US inflation accelerating in October and third quarter growth being revised sharply higher.
+
+Second, the war in Ukraine. Air raid sirens and explosions hit Kyiv late on Tuesday night, with the city's mayor saying the capital was under a ballistic missile attack. Ukraine's air force warned of incoming missiles. The strike came as European leaders said they were ready to talk with Russia, and as reports suggested another round of adviser-level peace talks could be held in Abu Dhabi. Oil prices jumped on the news, with Brent crude up more than three percent.
+
+Third, a security story that should worry anyone building software. Amazon's security team disclosed a case in which an open source AI agent, given a single instruction, found an unknown vulnerability on its own and took control of a university server. Not a known bug. Not a script written by a human. The agent searched, reasoned, and got in. The lesson is uncomfortable: the same autonomy that makes these systems useful makes them dangerous when pointed at something they were never meant to touch.
+
+That's your briefing for today. The full transcript is in the show notes. I'll be back tomorrow morning.
