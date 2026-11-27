@@ -56,5 +56,14 @@
       <itunes:duration>1:52</itunes:duration>
       <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-26.vtt" type="text/vtt" language="en"/>
     </item>
+    <item>
+      <title>Nov 27: AI agents hit Swiss infrastructure, mines in Hormuz, Trump urges Putin to stop</title>
+      <description><![CDATA[Swiss authorities report five AI-agent cyber attacks on power, water and communications; two tankers explode on mines in the Strait of Hormuz and two Italians die after an attack in Kuwait; and Trump urges Putin to end military aggression in Europe.]]></description>
+      <pubDate>Fri, 27 Nov 2026 07:00:00 +0800</pubDate>
+      <guid isPermaLink="false">2026-11-27</guid>
+      <enclosure url="https://anyhow1234.github.io/daily-brief/audio/2026-11-27.mp3" length="686592" type="audio/mpeg"/>
+      <itunes:duration>1:54</itunes:duration>
+      <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-27.vtt" type="text/vtt" language="en"/>
+    </item>
   </channel>
 </rss>

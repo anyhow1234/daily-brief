@@ -4,85 +4,97 @@ Welcome to Daily Brief.
 
 2
 00:00:02,226 --> 00:00:06,178
-It's Thursday, November 26th, 2026.
+It's Friday, November 27th, 2026.
 
 3
 00:00:06,178 --> 00:00:08,845
 Three stories in about three minutes.
 
 4
-00:00:08,845 --> 00:00:10,809
-First, trade.
+00:00:08,845 --> 00:00:12,738
+First, a story that follows directly from yesterday's.
 
 5
-00:00:10,809 --> 00:00:18,845
-President Trump has announced new tariffs on fourteen trading partners, with duties on Chinese goods reaching as high as twenty percent.
+00:00:12,738 --> 00:00:21,726
+Swiss authorities have reported five separate cyber attacks carried out by AI agents, with power, water and communications systems breached.
 
 6
-00:00:18,845 --> 00:00:24,535
-The White House frames the move as a correction to imbalances it says have gone unaddressed for years.
+00:00:21,726 --> 00:00:23,488
+Not attempted.
 
 7
-00:00:24,535 --> 00:00:31,297
-Markets took it calmly at first, then nervously: oil rose, and Nvidia slipped nearly four percent.
+00:00:23,488 --> 00:00:24,916
+Breached.
 
 8
-00:00:31,297 --> 00:00:44,511
-Economists warn that broad tariffs act like a tax on domestic consumers, and that the timing is awkward, coming just as new data showed US inflation accelerating in October and third quarter growth being revised sharply higher.
+00:00:24,916 --> 00:00:33,166
+This comes days after Amazon disclosed an AI agent that found an unknown vulnerability and took over a university server on its own.
 
 9
-00:00:44,511 --> 00:00:47,071
-Second, the war in Ukraine.
+00:00:33,166 --> 00:00:40,559
+Two incidents in one week, in two different countries, both involving autonomous systems that were pointed at infrastructure.
 
 10
-00:00:47,071 --> 00:00:55,369
-Air raid sirens and explosions hit Kyiv late on Tuesday night, with the city's mayor saying the capital was under a ballistic missile attack.
+00:00:40,559 --> 00:00:47,202
+Regulators in Europe are now asking a question they have been avoiding: who is liable when the agent acts alone.
 
 11
-00:00:55,369 --> 00:00:58,797
-Ukraine's air force warned of incoming missiles.
+00:00:47,202 --> 00:00:49,797
+Second, the Strait of Hormuz.
 
 12
-00:00:58,797 --> 00:01:08,404
-The strike came as European leaders said they were ready to talk with Russia, and as reports suggested another round of adviser-level peace talks could be held in Abu Dhabi.
+00:00:49,797 --> 00:00:57,285
+Iran's Revolutionary Guard says two oil tankers it described as violating rules exploded after hitting mines in the strait.
 
 13
-00:01:08,404 --> 00:01:13,071
-Oil prices jumped on the news, with Brent crude up more than three percent.
+00:00:57,285 --> 00:01:05,416
+Separately, two Italian nationals have died of their wounds following what Italy called an Iranian attack on a vital facility in Kuwait.
 
 14
-00:01:13,071 --> 00:01:17,619
-Third, a security story that should worry anyone building software.
+00:01:05,416 --> 00:01:11,583
+The strait carries roughly a fifth of the world's oil, and every incident there moves prices everywhere.
 
 15
-00:01:17,619 --> 00:01:28,797
-Amazon's security team disclosed a case in which an open source AI agent, given a single instruction, found an unknown vulnerability on its own and took control of a university server.
+00:01:11,583 --> 00:01:14,464
+Markets were already jittery this week.
 
 16
-00:01:28,797 --> 00:01:30,690
-Not a known bug.
+00:01:14,464 --> 00:01:16,369
+This does not help.
 
 17
-00:01:30,690 --> 00:01:33,238
-Not a script written by a human.
+00:01:16,369 --> 00:01:18,535
+Third, diplomacy.
 
 18
-00:01:33,238 --> 00:01:36,476
-The agent searched, reasoned, and got in.
+00:01:18,535 --> 00:01:27,488
+President Trump has urged President Putin to end what he called military aggression in Europe, speaking after a meeting with NATO Secretary General Mark Rutte.
 
 19
-00:01:36,476 --> 00:01:44,773
-The lesson is uncomfortable: the same autonomy that makes these systems useful makes them dangerous when pointed at something they were never meant to touch.
+00:01:27,488 --> 00:01:30,809
+Both men called on Russia not to widen the war.
 
 20
-00:01:44,773 --> 00:01:47,000
-That's your briefing for today.
+00:01:30,809 --> 00:01:37,547
+The language is blunt, but the substance is unchanged: no new mechanism, no deadline, no enforcement.
 
 21
-00:01:47,000 --> 00:01:49,857
-The full transcript is in the show notes.
+00:01:37,547 --> 00:01:43,500
+Meanwhile, Russia and Ukraine exchanged the bodies of fallen soldiers at the Belarus border.
 
 22
-00:01:49,857 --> 00:01:52,071
+00:01:43,500 --> 00:01:47,095
+That is the only channel currently producing results.
+
+23
+00:01:47,095 --> 00:01:49,321
+That's your briefing for today.
+
+24
+00:01:49,321 --> 00:01:52,178
+The full transcript is in the show notes.
+
+25
+00:01:52,178 --> 00:01:54,392
 I'll be back tomorrow morning.
 
