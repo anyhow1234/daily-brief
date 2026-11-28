@@ -65,5 +65,14 @@
       <itunes:duration>1:54</itunes:duration>
       <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-27.vtt" type="text/vtt" language="en"/>
     </item>
+    <item>
+      <title>Nov 28: OpenAI sues Apple, a migrant boat tragedy, Putin invited to the G20</title>
+      <description><![CDATA[OpenAI files a counterclaim accusing Apple of misappropriating trade secrets; fourteen die after a migrant boat is found adrift near Spain's El Hierro; and Trump says Putin would be welcome at the G20.]]></description>
+      <pubDate>Sat, 28 Nov 2026 07:00:00 +0800</pubDate>
+      <guid isPermaLink="false">2026-11-28</guid>
+      <enclosure url="https://anyhow1234.github.io/daily-brief/audio/2026-11-28.mp3" length="654336" type="audio/mpeg"/>
+      <itunes:duration>1:49</itunes:duration>
+      <podcast:transcript url="https://anyhow1234.github.io/daily-brief/transcripts/2026-11-28.vtt" type="text/vtt" language="en"/>
+    </item>
   </channel>
 </rss>
